@@ -99,6 +99,7 @@ namespace Data
                 if (rol == null)
                     return false;
 
+
                 rol.DeleteAt = DateTime.UtcNow;
                 _context.Set<Rol>().Update(rol);
 
